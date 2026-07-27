@@ -1,4 +1,5 @@
 # The Economic Engineer Portfolio | Jessica Danquah
+Live Demo: https://professional-portfolio-2z4m71alj-maje3.vercel.app/
 
 A high-performance, institutional-grade professional portfolio built to demonstrate the intersection of **Economic Theory**, **Financial Analytics**, and **Full-Stack Engineering**.
 
