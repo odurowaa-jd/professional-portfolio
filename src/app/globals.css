@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
+@theme {
+  --color-gold-antique: #C5A059;
+  --color-gold-shimmer: #F5E6C8;
+  --color-navy-deep: #020617;
+  --color-navy-accent: #0F172A;
+  --font-serif: var(--font-lora), serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --shadow-gold-glow: 0 0 40px -10px rgba(197, 160, 89, 0.3);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --navy-deep: #020617;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--navy-deep);
+  color: #f8fafc;
+  @apply antialiased overflow-x-hidden scroll-smooth;
+}
+
+/* Abstract Gold Background Streak */
+.gold-abstract-streak {
+  background: 
+    linear-gradient(135deg, transparent 40%, rgba(197, 159, 89, 0.055) 50%, transparent 60%),
+    radial-gradient(at 0% 0%, rgba(197, 159, 89, 0.16) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(197, 159, 89, 0.13) 0px, transparent 50%);
+}
+
+/* Deep Center Divider - Fades at ends */
+.divider-faded {
+  height: 1px;
+  width: 100%;
+  background: radial-gradient(circle, rgba(197,160,89,0.8) 0%, rgba(197,160,89,0) 70%);
 }

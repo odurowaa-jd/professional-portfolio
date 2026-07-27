@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# The Economic Engineer Portfolio | Jessica Danquah
 
-## Getting Started
+A high-performance, institutional-grade professional portfolio built to demonstrate the intersection of **Economic Theory**, **Financial Analytics**, and **Full-Stack Engineering**.
 
-First, run the development server:
+##  Project Objective
+This portfolio serves as a specialized dossier for University Admissions Committees and Recruiters. It is designed to move beyond traditional "web development" by framing technical projects through the lens of **Resource Optimization** and **Systemic Efficiency**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Technical Architecture
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (CSS-first configuration)
+- **Typography:** Hybrid Serif/Sans-Serif system (Lora & Inter) for an "Academic-Modern" aesthetic.
+- **Icons:** [Lucide-React](https://lucide.dev/) & Custom SVG Implementations.
+- **Deployment:** [Vercel](https://vercel.com/) (CI/CD Pipeline).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Design Philosophy
+- **Navy & Gold Palette:** Inspired by global financial institutions and prestigious academic bodies to convey authority and trust.
+- **3D Layering:** Utilizing CSS-based Z-index stacking and hover-parallax effects to create depth and a "profound" user experience.
+- **Data-First Copywriting:** Each project is categorized by an "Economic Thesis" to highlight the logic behind the code.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+##  Key Projects Highlighted
+1. **Cycle Budget:** Full-Stack Household Fiscal Infrastructure (PHP/SQL).
+2. **Campus Optimizer:** Institutional Resource Allocation System (Next.js).
+3. **Apex Analytics:** Financial Data Modeling Suite (PHP/SQL).
+4. **Aura Scholar:** Strategic Academic Pipeline (Next.js/React).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Learning Trajectory
+This project documents a **16-week intensive evolution** from frontend fundamentals to complex, full-stack architectural solutions.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*Developed by Jessica Danquah (odurowaa-jd) | Bridging Economics and Technology.*
