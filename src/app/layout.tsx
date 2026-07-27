@@ -16,8 +16,13 @@ const lora = Lora({
 
 // 2. Set the metadata for Admissions Committees
 export const metadata = {
-  title: 'Your Name | Economic Engineer & Full-Stack Developer',
-  description: 'Bridging the gap between economic theory and digital execution.',
+  title: 'Jessica Danquah | Economic Engineer & Full-Stack Developer',
+  description: 'Architecting intelligent digital infrastructure to solve modern economic challenges. Explore my work in resource optimization and financial systems.',
+  openGraph: {
+    title: 'Jessica Danquah Portfolio',
+    description: 'Bridging Economics and Technology through Full-Stack Engineering.',
+    images: ['/portrait.jpg'], // This makes your portrait show up when you share the link
+  },
 };
 
 export default function RootLayout({

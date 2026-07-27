@@ -98,7 +98,7 @@ export default function Projects() {
 
                   }
                   {/* Find the Image section in Projects.tsx and replace it with this */}
-<div className="relative w-full h-full overflow-hidden rounded-xl shadow-[0_0_40px_rgba(197,160,89,0.3)] border border-gold-antique/30 bg-navy-accent flex items-center justify-center">
+<div className="relative w-full h-full overflow-hidden rounded-xl shadow-2xl border border-gold-antique/30 bg-gradient-to-br from-navy-accent to-navy-deep flex items-center justify-center p-4">
   <Image 
     src={project.image} 
     alt={project.title} 
