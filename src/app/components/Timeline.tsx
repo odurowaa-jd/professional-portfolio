@@ -7,10 +7,10 @@ export default function Timeline() {
   ];
 
   return (
-    <section className="bg-navy-deep py-32 px-6 lg:px-24">
+    <section className="bg-navy-deep pt-12 pb-24 px-6 lg:px-24">
       <div className="max-w-7xl mx-auto">
         
-        {/* Faded Divider at the top of the section */}
+        {/* Faded Divider */}
         <div className="divider-faded mb-20 opacity-50" />
 
         <div className="mb-20 text-center lg:text-left">
@@ -23,7 +23,6 @@ export default function Timeline() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {milestones.map((m, i) => (
             <div key={i} className="relative p-10 bg-navy-accent/20 border-l-2 border-gold-antique/40 hover:bg-navy-accent/40 transition-all duration-500 group">
-              {/* Permanent Glow Point */}
               <div className="absolute -left-[7px] top-0 w-[12px] h-[12px] bg-gold-antique rounded-full shadow-[0_0_15px_rgba(197,160,89,1)] transition-transform group-hover:scale-125" />
               
               <p className="text-gold-antique text-[11px] font-bold uppercase tracking-[0.3em] mb-4">{m.week}</p>
