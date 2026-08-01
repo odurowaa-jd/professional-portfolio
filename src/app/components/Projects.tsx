@@ -26,20 +26,21 @@ const projects = [
     ]
   },
   {
-    title: "Campus Optimizer",
-    subtitle: "Institutional Resource Allocation",
-    thesis: "Institutional Efficiency Systems",
-    tech: ["Next.js", "Vercel", "Resource Logic"],
-    link: "https://campus-resource-optimizer-six.vercel.app/",
-    repo: "https://github.com/odurowaa-jd/campus-resource-optimizer.git", 
-    image: "/campus-preview.png",
-    intro: "An optimization tool focused on managing shared institutional assets and maximizing institutional utility.",
-    details: [
-      { label: "The Problem", content: "Information asymmetry on campus often leads to underutilized facilities and wasted institutional resources." },
-      { label: "Economic Aspect", content: "Focuses on the organization and interpretation of raw data to align supply with demand and minimize 'deadweight loss' in shared environments." },
-      { label: "Technological Resolution", content: "Leverages a Next.js framework to provide an intelligent interface for real-time asset tracking and systematic resource distribution." }
-    ]
-  },
+  title: "Student Portal",
+  subtitle: "Full-Stack Academic Information System",
+  thesis: "Institutional Data Governance",
+  tech: ["PHP", "MySQL", "Information Systems"],
+  link: "https://studentportal-capstone.infinityfreeapp.com/index.php",
+  repo: "https://github.com/odurowaa-jd/Student-Portal.git",
+  image: "/student-portal-preview.png",
+  intro: "A centralized information system designed to eliminate information asymmetry in academic record-keeping.",
+  details: [
+    { label: "The Problem", content: "Decentralized academic records often lead to information asymmetry and high administrative costs for students and faculty." },
+    { label: "Economic Aspect", content: "Focuses on reducing 'Transaction Costs' within an institution by providing a high-availability, centralized data repository." },
+    { label: "Institutional Mechanism", content: "Implemented a robust data governance model to ensure the security, privacy, and integrity of student academic profiles." },
+    { label: "Technological Resolution", content: "Engineered a PHP-driven portal with a relational MySQL backend to manage secure user permissions and dynamic data retrieval." }
+  ]
+},
   {
     title: "Apex Analytics Suite",
     subtitle: "Lending Portfolio Visualization",
@@ -53,6 +54,21 @@ const projects = [
       { label: "The Problem", content: "Branch-level lending often lacks macro-visibility, making it difficult to track disbursements against defaults in real-time." },
       { label: "Financial Aspect", content: "Engineered for end-of-year reconciliation and credit exposure assessment to improve fiscal governance and branch-level transparency." },
       { label: "Technological Resolution", content: "A robust PHP/SQL suite providing multi-dimensional data visualization to help financial institutions see the 'bigger picture'." }
+    ]
+  },
+  {
+    title: "Campus Optimizer",
+    subtitle: "Institutional Resource Allocation",
+    thesis: "Institutional Efficiency Systems",
+    tech: ["Next.js", "Vercel", "Resource Logic"],
+    link: "https://campus-resource-optimizer-six.vercel.app/",
+    repo: "https://github.com/odurowaa-jd/campus-resource-optimizer.git", 
+    image: "/campus-preview.png",
+    intro: "An optimization tool focused on managing shared institutional assets and maximizing institutional utility.",
+    details: [
+      { label: "The Problem", content: "Information asymmetry on campus often leads to underutilized facilities and wasted institutional resources." },
+      { label: "Economic Aspect", content: "Focuses on the organization and interpretation of raw data to align supply with demand and minimize 'deadweight loss' in shared environments." },
+      { label: "Technological Resolution", content: "Leverages a Next.js framework to provide an intelligent interface for real-time asset tracking and systematic resource distribution." }
     ]
   },
   {
