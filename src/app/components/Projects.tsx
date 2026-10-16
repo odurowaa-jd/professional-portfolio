@@ -49,7 +49,7 @@ const projects = [
     subtitle: "Lending Portfolio Visualization",
     thesis: "Fiscal Governance & Risk Analytics",
     tech: ["PHP", "MySQL", "Risk Management"],
-    link: "http://apex-analytics.rf.gd/",
+    link: "https://apex-analytics.infinityfreeapp.com/",
     repo: "https://github.com/odurowaa-jd/Apex_Analytics_Suite.git",
     image: "/apex-preview.png",
     intro: "An institutional-grade financial engine drawing from professional banking experience to solve the 'visibility gap' in lending.",
